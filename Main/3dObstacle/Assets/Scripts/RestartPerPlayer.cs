@@ -18,7 +18,7 @@ public class RestartPerPlayer : MonoBehaviour
       if (collision.collider.tag == strTag) {
            transform.position = playerPos; 
            GetComponent<Rigidbody>().velocity = v3Force;
-           transform.rotation = Quaternion.Slerp(transform.rotation, target,  Time.deltaTime);
+           //transform.rotation = Quaternion.Slerp(transform.rotation, target,  Time.deltaTime);
       }
   }
 }
