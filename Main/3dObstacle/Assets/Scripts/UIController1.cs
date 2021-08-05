@@ -13,6 +13,7 @@ public class UIController1 : MonoBehaviour {
 
     private void Awake(){
         instance = this;
+        PlayerPrefs.SetFloat("bestTime", 9999);
     }
     void Start()
     {
